@@ -1,0 +1,1 @@
+# SCHEMA, IDEAS, INTERESTS -> does this have to be singular? 

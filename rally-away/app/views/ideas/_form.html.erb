@@ -1,0 +1,35 @@
+<%= form_for(@idea) do |f| %>
+	<div>
+		<%= f.label(:title) %>
+		<%= f.text_field(:title, placeholder: "Enter title") %>
+	</div><br>
+
+	<div>
+		<%= f.label(:body) %>
+		<%= f.text_field(:body, placeholder: "Enter a brief description") %>
+	</div><br>
+
+	<div>
+		<%= f.label(:location) %>
+		<%= f.text_field(:location, placeholder: "Enter location") %>
+	</div><br>
+
+	<div>
+		<%= f.label(:idea_type) %>
+		<%= f.text_field(:idea_type, placeholder: "Select type of trip idea") %>
+	</div><br>
+
+	<div>
+		<%= f.label(:idea_category) %>
+		<%= f.text_field(:idea_category, placeholder: "Select category") %>
+	</div><br>
+
+	<div>
+		<%= f.label(:interests) %>
+		<%= f.text_field(:interests, placeholder: "Tag interests here") %>
+	</div><br>
+
+	<div>
+		<%= f.submit "Submit idea" %>
+	</div>
+<% end %>
