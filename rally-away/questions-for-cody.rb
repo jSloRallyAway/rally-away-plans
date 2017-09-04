@@ -1,1 +1,4 @@
 # SCHEMA, IDEAS, INTERESTS -> does this have to be singular? 
+
+
+# RESOURCES TO FIND DEVELOPERS FOR PROJECTS?

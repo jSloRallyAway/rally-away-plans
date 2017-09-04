@@ -1,7 +1,15 @@
-<div = class="idea">
+<div class = "idea">
 
-	<h3><%= link_to(idea.title, idea) %> </h3>
+<h3> <%= link_to(idea.title, idea) %> </h3>
+<p> <%= idea.body %> </p>
+<p> <%= idea.location %> </p>
+<p> <%= idea.idea_type %> </p>
+<p> <%= idea.idea_category %> </p>
+<p> <%= idea.interests %> </p>
 
-	<p> <%= idea.body %> </p>
+<ul>
+	<li><%= edit_idea_link(idea) %> </li>
+	<li><%= delete_idea_link(idea) %> </li>
+</ul>
 
 </div>

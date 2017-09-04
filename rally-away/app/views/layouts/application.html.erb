@@ -7,8 +7,15 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
+	<h1>PLANS by Rally Away</h1>
+		<ul>
+			<li><%= link_to('All Trip Ideas', root_path) %></li>
+			<li><%= link_to('New Trip Idea', new_idea_path) %></li>
+		</ul>
+	<% if flash.notice %>
+		<div class="notice"><%= flash.notice %></div>
+	<% end %>
+	<%= yield %>
 
 </body>
 </html>
